@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ludo - Guest vs Bot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header><h1>🎲 Ludo</h1><p>Guest vs Bot</p></header>
+
+<section class="info">
+<div>Game: <b id="gameId">-</b></div>
+<div>Turn: <b id="turn">-</b></div>
+<div>Dice: <b id="dice">-</b></div>
+</section>
+
+<main>
+<div class="board-wrap"><div id="board" class="board"></div></div>
+<aside class="panel">
+<button id="newGame">New Game</button>
+<button id="roll" disabled>Roll Dice</button>
+<h3>Guest Tokens</h3><div id="guestTokens"></div>
+<h3>Bot Tokens</h3><div id="botTokens"></div>
+<p id="message">Starting...</p>
+</aside>
+</main>
+<footer>Spring Boot + Oracle + HTML + CSS + JavaScript</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
